@@ -12,7 +12,7 @@ public class BonjourCellTest {
 	public void testBonjour() {
 		assertEquals("Bonjour!", cell.ask("Bonjour"));
 	}
-	
+		
 	@Test
 	public void testNotBonjour() {
 		assertEquals(null, cell.ask("au revoir"));
