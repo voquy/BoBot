@@ -14,7 +14,8 @@ public class Bot
 		new SalutCell(),
 		new BonjourWithNameCell(),
 		new TodayCell(),
-		new AuRevoirCell()
+		new AuRevoirCell(),
+		new HeyCell()
 	};
 
 	/**
