@@ -8,6 +8,8 @@ public class BotMain {
 		String reponse = monBot.ask("Salut");
 
 		System.out.println(reponse);
+		
+		monBot.ask("Quelle est la date du jour ?");
 	}
 
 }
