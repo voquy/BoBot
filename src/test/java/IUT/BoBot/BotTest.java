@@ -21,16 +21,22 @@ public class BotTest
         assertEquals("Bonjour!", bot.ask("Bonjour"));
     }
     
-    /*@Test
+    @Test
     public void testAuRevoir()
     {
         assertEquals("au revoir", bot.ask("au revoir"));
-    }*/
-    
+    }
+        
     @Test
     public void testSalut()
     {
         assertEquals("Salut", bot.ask("Salut"));
+    }
+    
+    @Test
+    public void testDateHier()
+    {
+        assertEquals("05/03/13", bot.ask("hier"));
     }
     
     @Test

@@ -6,8 +6,10 @@ public class BotMain {
 		Bot monBot = new Bot();
 		
 		String reponse = monBot.ask("Salut");
-
+	
 		System.out.println(reponse);
+		monBot.ask("hier");
+		
 	}
 
 }
