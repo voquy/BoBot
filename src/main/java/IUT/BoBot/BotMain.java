@@ -9,6 +9,8 @@ public class BotMain {
 
 		System.out.println(reponse);
 		
+		// Affiche la date du jour
+		System.out.print("Aujourd'hui nous sommes le ");
 		monBot.ask("Quelle est la date du jour ?");
 	}
 

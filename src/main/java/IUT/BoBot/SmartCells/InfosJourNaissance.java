@@ -2,7 +2,8 @@ package IUT.BoBot.SmartCells;
 
 import IUT.BoBot.SmartCell;
 
-public class DateDuJour implements SmartCell {
+public class InfosJourNaissance implements SmartCell {
+
 
 	public String ask(String question) {
 		if(question.contains("Quelle est la date du jour ?"))

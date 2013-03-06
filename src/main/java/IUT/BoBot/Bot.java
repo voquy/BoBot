@@ -16,7 +16,8 @@ public class Bot
 		new TodayCell(),
 		new AuRevoirCell(),
 		new HeyCell(),
-		new DateDuJour()
+		new DateDuJour(),
+		new InfosJourNaissance()
 	};
 
 	/**
